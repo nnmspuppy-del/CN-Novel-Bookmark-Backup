@@ -41,9 +41,9 @@ python -m pip install beautifulsoup4 deep-translator
 3. Edit the settings in the script:
 
 ```python
-BOOKMARK_FILE = "bookmarks_6_14_26.html"
+BOOKMARK_FILE = "Bookmarks.html"
 TARGET_DOMAIN = "shubaowb.com"
-OUTPUT_CSV = "shubaow_novels_from_bookmarks.csv"
+OUTPUT_CSV = "backup_novel.csv"
 
 TEST_LIMIT = 5  # Set to None to process all matching bookmarks
 ```
