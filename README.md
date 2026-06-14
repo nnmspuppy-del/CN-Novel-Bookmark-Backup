@@ -28,7 +28,25 @@ novel_title_original,novel_title_english,url
 
 ## Requirements
 
-Install the required Python packages:
+1. Create a new conda envrionment
+
+```bash
+conda create -n web
+```
+
+2. Make sure to install pip wihtin that environment
+   
+```bash
+conda install -n web pip
+```
+
+3. Activae conda envrionment
+
+```bash
+conda activate web
+```
+
+5. Install the required Python packages:
 
 ```bash
 python -m pip install beautifulsoup4 deep-translator
