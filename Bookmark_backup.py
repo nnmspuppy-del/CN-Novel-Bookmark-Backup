@@ -11,7 +11,7 @@ import time
 # User settings
 # =========================
 
-BOOKMARK_FILE = "Bookmark.html"
+BOOKMARK_FILE = "Bookmarks.html"
 TARGET_DOMAIN = "shubaowb.com"
 OUTPUT_CSV = "backup_novels.csv"
 
